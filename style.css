@@ -1,0 +1,25 @@
+body {
+    background-image: url("https://jdfields.com/wallbuilder/images/bg.jpg");
+    color :white
+   
+  }
+h1{
+  text-shadow: 2px 2px grey;
+  color :#EEA47FFF;
+}  
+ 
+  .center {
+    
+    border: 1px solid grey;
+    padding: 45px;
+    display:flex;
+    font-family:sans-serif;
+    font-size:25px;
+   
+  margin-left: 380px;
+ 
+  width: 300px;
+  height: 230px;
+  text-align: center;
+  font-size: 20px;
+  }

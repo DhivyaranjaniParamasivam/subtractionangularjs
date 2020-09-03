@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title> WEB TECHNOLOGY</title>
+
+
+
+    </head>
+    <link href="style.css" type="text/css" rel="stylesheet"></link>
+    <script type="text/javascript" src="angular.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+<body ng-app="simplecal">
+    <div>
+
+      
+        <h1 style="text-align:center">
+            SUBTRACTION
+        </h1>
+    </div>
+    <div class="center">
+    <div ng-controller="simplecalcontroller">
+        Enter First Number:
+        <div>
+          <br>  <input type="number" ng-model="n1" ng-keyup="cal()";></br>
+        </div>
+        <br>
+        Enter Second Number:
+        <div>
+           <br> <input type="number" ng-model="n2" ng-keyup="cal()";></br>
+        </div>
+        <br>
+        <div>
+            RESULT :{{totalvalue}}
+        </div>
+    </div>
+
+    </div>
+    </div>
+</body>
+    </html>◘
